@@ -273,7 +273,6 @@ class SmsUI(FloatLayout):
     def _generate_bg(self, dt):
         """生成动态毛玻璃背景 - 渐变色"""
         from kivy.graphics.texture import Texture
-        import numpy as np
         
         w, h = 360, 780
         buf = bytearray()
