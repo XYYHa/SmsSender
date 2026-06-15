@@ -1,6 +1,5 @@
 [app]
 
-# 包名
 title = SmsSender
 
 package.name = SmsSender
@@ -24,6 +23,8 @@ android.api = 34
 android.ndk = 25c
 
 android.sdk = 34
+
+android.accept_sdk_license = True
 
 android.permissions = INTERNET, ACCESS_NETWORK_STATE, ACCESS_WIFI_STATE, POST_NOTIFICATIONS
 
@@ -54,6 +55,7 @@ android.presplash_color = #1C1C1E
 android.window_soft_input_mode = adjustResize
 
 android.gradle_dependencies = ''
+
 [buildozer]
 log_level = 2
 warn_on_root = 0
