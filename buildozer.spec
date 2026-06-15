@@ -54,7 +54,7 @@ android.presplash_color = #1C1C1E
 
 android.window_soft_input_mode = adjustResize
 
-android.gradle_dependencies = ''
+# android.gradle_dependencies = 
 
 [buildozer]
 log_level = 2
